@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+body{
+    background: rgb(80, 74, 74)
+
+}
+.div1{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url('Homepage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.contaner{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    background: transparent;
+    padding: 50px 30px;
+    line-height: 30px;
+    text-align: start;
+    border: 2px solid rgba(255, 255, 255, .5);
+    position: relative;
+    border-radius: 20px;
+    backdrop-filter: blur(30px);
+    box-shadow: rgba(255, 255, 255, .5);
+    background: none;
+    margin-top: 0;
+
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 0;
+
+   
+}
+.logo{
+    width: 50px;
+    display: inline-block;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: rgb(18, 211, 218);
+    margin-bottom: 20px;
+    
+}
+label{
+    color: white;
+    font-weight: 500;
+}
+
+.First-name{
+    display: inline-block;
+}
+#First-name{
+    width: 400px;
+    padding: 2.5px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 7px;
+    border-top-right-radius: none;
+    overflow: hidden;
+    outline: none;
+    height: 20px;
+ 
+}
+#First-name::placeholder{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+.Second-name{
+    display: inline-block;
+}
+#Second-name{
+    width: 400px;
+    padding: 2.5px 6px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 7px;
+    height: 20px;
+    outline: none;
+    overflow: hidden;
+}
+#Second-name::placeholder{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+.Nick-name{
+    display: inline-block;
+}
+#Nick-name{
+    width: 400px;
+    padding: 2.5px 6px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    overflow: hidden;
+    height: 20px;
+}
+#Nick-name::placeholder{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+.Phone-Number{
+    display: inline-block;
+}
+#Phone-Number{
+    width: 400px;
+    padding: 2.5px 6px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 7px;
+    overflow: hidden;
+    outline: none;
+   height: 20px;
+}
+#Phone-Number::placeholder{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+.email{
+    display: inline-block;
+}
+#E-mail{
+    width: 400px;
+    padding: 2.5px 6px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    outline: none;
+    overflow: hidden;
+    height: 20px;
+   
+}
+#E-mail::placeholder{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.radio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: aliceblue;
+    margin-bottom: 40px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(211, 21, 21);
+    color: white;
+    border: none;
+    display: block;
+    cursor: pointer;
+    transition: .5;
+}
+button:hover{
+    background-color: aqua;
+    color: black;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
